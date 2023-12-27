@@ -3,7 +3,8 @@ import React from "react";
 const ProfessionalExperience = () => {
     return (
         <div className="section">
-            <h2>Professional Experience</h2>
+            <h2>Experience and Skills</h2>
+            <h3>Experience</h3>
             <ProfessionalExperienceItem
                 title="Associate Software Engineer, Infosys Limited"
                 startDate="Sep 2021"
@@ -19,6 +20,25 @@ const ProfessionalExperience = () => {
                     // ... other responsibilities
                 ]}
             />
+            <h3>Skills</h3>
+            <ul>
+                <li><strong>Programming languages:</strong> Java/J2EE, C#, JavaScript, TypeScript</li>
+                <li><strong>Web Development Frameworks and tools:</strong> Maven, Spring Boot, Hibernate, ASP.NET MVC, Entity Framework</li>
+                <li><strong>JavaScript Frameworks and Libraries:</strong> Angular, jQuery</li>
+                <li><strong>Database Technologies:</strong> SQL, NoSQL, ETL, MongoDB, MS SQL Server, Oracle, MySQL, PostgreSQL</li>
+                <li><strong>API and Web Services:</strong> Restful APIs, Microservices, API testing</li>
+                <li><strong>Markup and Data Formats:</strong> HTML5, CSS, JSON, XML</li>
+                <li><strong>Cloud Computing:</strong> AWS, Microsoft Azure</li>
+                <li><strong>Version Control and collaboration tools:</strong> Git, Bitbucket, GitHub, GitLab, Trello, Lucidchart</li>
+                <li><strong>Agile Methodologies:</strong> Scrum Framework, Kanban Methodology, User Story Creation and Management</li>
+            </ul>
+            <h3>Certifications</h3>
+            <ul>
+                
+                <li>Infosys Certified AWS Solutions Architect Associate - 24 Jan 2023</li>
+                <li>Infosys Certified Spring Associate - 30 Oct 2022</li>
+                <li>Infosys Certified Angular Associate - 27 Jan 2002</li>
+            </ul>
         </div>
     );
 };
@@ -26,7 +46,7 @@ const ProfessionalExperience = () => {
 const ProfessionalExperienceItem = ({ title, startDate, endDate, bullets }) => {
     return (
         <div className="professional-experience-item">
-            <h3>{title}</h3>
+            <h4>{title}</h4>
             <p>
                 {startDate} - {endDate}
             </p>

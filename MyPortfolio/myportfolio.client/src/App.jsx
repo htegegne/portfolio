@@ -1,59 +1,62 @@
 /* eslint-disable react/jsx-no-undef */
 //import { useEffect, useState } from 'react';
 import './App.css';
+//import './navBar.css'
 import Education from './education';
 import ProfessionalExperience from './experience';
 
 import About from './About';
 
-
+//import image from "./public/backgruond.png";
+//import image from "./images/pro_pic.svg";
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
-import Navbar from './NavBar';
+import NavBar from './NavBar';
 import Home from './Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+import Contacts from './contacts';
 
 
 
-
-//import Education from './education.jsx'
-//import ProfessionalExperience from './experience.jsx'
-
-/*const Home = () => {
-    return (
-        <nav>
-            <li> <a href="/">Home</a></li>
-            <li> <a href="About">About</a> </li>
-           
-            <li> <a href="./education">Education</a></li>
-           
-            <li> <a href="./experience">Experience</a></li>
-           
-       
-            <p>This component demonstrates fetching data from the server.</p>
-        </nav>
-    );
-};
-*/
 
 
 
 
 const App = () => {
     return (
-        <div>
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<Navbar />}>
-                        {<Route index element={<Home />} />}
-                        <Route path="home" element={<Home />} />
-                        <Route path="about" element={<About />} />
-                        <Route path="education" element={<Education />} />
-                        <Route path="experience" element={<ProfessionalExperience />} />
-                    </Route>
-                </Routes>
-            </BrowserRouter>
-
-          
-        </div>
+        
+             <div >
+                   
+                <Navbar id="navbar" expand="lg" >
+                   {/*<Container>*/}
+                      {/* <Navbar.Brand href="#home">Habtamu Tegegne</Navbar.Brand>*/}
+               {/*  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                   */}
+                        <Nav className="me-auto">
+                            <BrowserRouter>
+                                <Routes>
+                                    <Route path="/" element={<NavBar />}>
+                                        {<Route index element={<Home />} />}
+                                        <Route path="home" element={<Home />} />
+                                        <Route path="about" element={<About />} />
+                                        <Route path="education" element={<Education />} />
+                                <Route path="experience" element={<ProfessionalExperience />} />
+                                <Route path="contacts" element={<Contacts/> } />
+                                    </Route>
+                                </Routes>
+                    </BrowserRouter>
+                   
+                          </Nav>  
+                    
+                    {/*</Container>*/}
+                </Navbar>
+               
+              
+            </div>
+       
     );
 }
     
