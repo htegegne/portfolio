@@ -21,10 +21,6 @@ import Contacts from './contacts';
 
 
 
-
-
-
-
 const App = () => {
     return (
         

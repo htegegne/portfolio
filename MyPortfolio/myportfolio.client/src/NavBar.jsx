@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './navBar.css';
 
 import { Link, Outlet } from 'react-router-dom';
-import mainLogo from './images/ht-logo.png'
+import mainLogo from './images/logo-ht1.png'
 
 
 const NavBar = () => {
