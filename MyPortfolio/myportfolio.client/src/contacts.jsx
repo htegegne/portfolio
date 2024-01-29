@@ -14,7 +14,7 @@ const Contacts = () => {
                <h4> Email: <a href="mailto:habamutegegne1@gmail.com"> <img src={gmailLogo} alt="Gmail" className="logo" />
                     </a></h4>
                     <br />
-                <h4>GitHub: <a href="https://github.com/HabTeg21" target="_blank" rel="noopener noreferrer">
+                <h4>GitHub: <a href="https://github.com/htegegne" target="_blank" rel="noopener noreferrer">
                     <img src={githubLogo} alt="GitHub Logo" width="30" height="30" /></a> </h4>
                     <br />
                    

@@ -69,7 +69,7 @@ const Home = () => {
                                     </a>
                                 </button>
                                 <button className="button link-btn">
-                                    <a href="https://github.com/HabTeg21" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://github.com/htegegne" target="_blank" rel="noopener noreferrer">
                                         <img src={githubLogo} alt="GitHub Logo" width="30" height="30" />
                                     </a>
                                 </button>
