@@ -4,16 +4,16 @@ namespace MyPortfolio.Server.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class MyPortfolioController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<MyPortfolioController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public MyPortfolioController(ILogger<MyPortfolioController> logger)
         {
             _logger = logger;
         }
