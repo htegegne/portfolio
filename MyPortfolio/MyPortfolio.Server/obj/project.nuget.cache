@@ -4,7 +4,11 @@
   "success": true,
   "projectFilePath": "C:\\Users\\habta\\OneDrive\\Documents\\GitHub\\my-portfolio\\MyPortfolio\\MyPortfolio.Server\\MyPortfolio.Server.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
     "C:\\Users\\habta\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.14\\microsoft.aspnetcore.spaproxy.8.0.14.nupkg.sha512",
+=======
+    "C:\\Users\\habta\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.1\\microsoft.aspnetcore.spaproxy.8.0.1.nupkg.sha512",
+>>>>>>> 7b2c9386f5f753c41720a1579ff75db630836203
     "C:\\Users\\habta\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\habta\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\habta\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
