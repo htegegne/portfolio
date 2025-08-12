@@ -1,0 +1,111 @@
+﻿
+body {
+    background: url('images/port_back.png') center no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+#root {
+    min-height: 100vh;
+    max-width: 1200px; /* Set a max-width for better readability */
+    margin: 0 auto;
+    padding: 1rem;
+    padding-bottom: 120px; /* Adjust based on footnote height */
+
+}
+
+.section {
+    width: 100%;
+    height: auto;
+    margin: 5px 0; /* Add margin for spacing between sections */
+    text-align: justify;
+    padding: 50px;
+    background-color: cadetblue; /* White background for sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: #333; /* Dark text color */
+  
+}
+.contacts-home-section {
+    background-color: burlywood;
+    position: relative;
+    z-index: 3;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    .contacts-home-section h3 {
+        /* Add margin or padding to create space between logos */
+        margin-bottom: 10px; /* Adjust the value based on your preference */
+    }
+
+    .contacts-home-section img {
+        /* Add margin or padding to create space between logos */
+        margin-right: 10px; /* Adjust the value based on your preference */
+    }
+
+.button-container {
+    display: flex;
+}
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: gold; /* Add  color */
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+   
+}
+    .button + .button {
+        margin-left: 5px;
+    }
+
+    .button:hover {
+        background-color: #2980b9; /* Add color on hover */
+    }
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-content {
+    text-align: justify; /* Justify content within this container */
+    background:none;
+}
+.video-wrapper {
+    position: relative;
+    height: 100vh;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.video-text {
+    max-width: 600px;
+}
